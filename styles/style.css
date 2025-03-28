@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.button{
+    padding: 12px;
+    width: 150px;
+    background-color: #d0d0d0;
+    border: 1px solid #adadad;
+    text-align: center;
+}
+.button:hover, .btn:hover{
+    background-color: #adadad;
+    cursor: pointer;
+}
+.container{
+    margin: 0 auto;
+    width: 800px;
+}
+.btn{
+    width: 100px;
+    padding: 14px;
+    background-color: #d0d0d0;
+    border: 1px solid #adadad;
+    text-align: center;
+    border-radius: 50px;
+    margin: 50px auto;
+}
+
+/* davaleba tu chamqvrali src aris mashin chamqvralia da davuwert antebas if elset */
